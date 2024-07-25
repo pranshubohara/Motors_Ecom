@@ -1,0 +1,138 @@
+
+
+/*footer css*/
+
+  
+  .content {
+    flex: 1;
+  }
+  
+  .footer {
+    min-height: 100px;
+    position: fixed;
+    bottom:0; 
+    width: 100%;
+    background-color: rgba(35, 35, 35, 0.97);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 10000;
+}
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .intro,
+  .social-links,
+  .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .social-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+/*footer css end*/
+
+/*body css*/
+/*slider css*/
+
+  
+.slider-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #video-slider {
+    width: 100%;
+    max-width: 100%; /* Adjust max width as needed */
+    height: auto;
+    background-color: rgba(0, 0, 0);
+  }
+/*slider css end*/
+
+/*home image*/
+.image-container{
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.image-container2{
+    top: 200%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.image-container3{
+    top: 300%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.image {
+    width: 80%;
+    max-width: auto;
+    height: 80%;
+    background-color: rgb(255, 254, 254);
+  }
+  .order-btn2 {
+    position: relative; /* Change position to relative */
+    background-color: #252525; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline block */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 10px; /* Rounded corners */
+    transition: 0.3s; /* Smooth transition */
+    margin-top: -20px; /* Adjust margin to overlap with the image */
+
+    /* Adjusted positioning */
+    top: 30%;
+  
+    
+}
+.order-btn2:hover {
+    background-color: #4d8d4d; /* Green background */
+}

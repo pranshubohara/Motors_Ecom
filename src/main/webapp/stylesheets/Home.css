@@ -1,0 +1,345 @@
+
+/*navbar css */
+body{
+    background-color: rgba(0, 200, 0,1);
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0,0);
+    margin-left: 100px;
+}
+.logo_footer {
+    color: rgba(157, 157, 157, 0.479);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.logo:hover{
+    pointer-events: painted;
+    color: rgba(209, 207, 207, 0.695);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.nav_bar {
+    background-color: rgba(0, 0, 0, 1);
+     height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+}
+
+.nav_bar ul {
+    position: relative;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0,0);
+    list-style: none;
+    display: flex;
+    padding: 50px;
+
+}
+.photo {
+    
+    background-color: rgb(53, 20, 49);
+   
+}
+
+.nav_bar_word {
+    left: 330;
+    text-align: center;
+    position: relative;
+    gap: 100px;
+    margin-left: 200px;
+    
+}
+
+.nav_bar ul li a {
+    text-align: center; /* Center the text */
+    top:20px;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 60;
+    transition: all 0.3s;
+    display: block;
+}
+
+.nav_bar ul li a:hover {
+    color: rgba(216, 161, 20, 0.89);
+    width: 100%;
+    height: 100%;
+}
+
+.fas {
+    float: right;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+.profile{
+    position: relative;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+.picture{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 50px;
+    margin-right: -90;
+}
+/*end of nav bar css*/
+
+/*css footer*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+}
+ul ,li{
+     list-style-type: none;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 0px; /*change here at last */
+    color: white;
+    background-color: rgb(134, 70, 70);
+    padding: 10px; /* Fixed padding */
+    position:relative;
+}
+.footer_logo{
+    color: rgba(241, 241, 241, 0.479);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 120;
+}
+footer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    color: white;
+
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content h2 {
+    font-size: 18px;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+
+.footer-content .social ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-content .social ul li {
+    margin-bottom: 5px;
+}
+
+.footer-content .social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content .social ul li a:hover {
+    text-decoration: underline;
+}
+
+/*end of footer css*/
+
+
+/*slider css*/
+
+  
+  .slider-container {
+  	top: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #video-slider {
+    width: 100%;
+    max-width: 100%; /* Adjust max width as needed */
+    height: auto;
+    background-color: rgba(0, 0, 0);
+  }
+/*slider css end*/
+/*home image*/
+.image-container{
+	position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image {
+    width: 100%;
+    max-width: auto;
+    height: 100%;
+    background-color: rgb(255, 254, 254);
+  }
+/*toggle*/
+  .toggle-btn:hover {
+    background-color: #867d7d00;
+    
+  }
+  .toggle-btn {
+    font-size: 20px;
+    background-color: #00000000;
+    position: relative;
+    color: #00000000;
+    padding: 1px 2px;
+    border: none;
+    cursor: pointer;
+    margin-left:30px; /* Adjust margin as needed */
+    display: block;
+  }
+  
+  .toggle-btn:hover {
+    color: rgba(216, 161, 20, 0.89);
+  }
+
+
+  /*responsive*/
+  /* Navbar CSS */
+
+/* Define a class for the responsive dropdown */
+.responsive-Dropdown {
+    display: none; /* Initially hide the dropdown menu */
+
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1300px) {
+    .nav_bar ul {
+        display: none; /* Hide the navbar links */
+        transition: 10s;
+    }
+    .footer_logo{
+        display: none;
+    }
+
+  
+
+    
+  
+     */
+    
+    .footer-content
+    {
+        display: none;
+    }
+}
+
+ 
+  
+
+.image-container {
+    position: relative; /* Set container position to relative */
+    text-align: center; /* Center-align contents */
+    
+}
+
+.image-container .order-btn2 {
+    position: relative; /* Change position to relative */
+    background-color: #252525; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline block */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-top: -20px; /* Adjust margin to overlap with the image */
+
+    /* Adjusted positioning */
+    top: 30%;
+  
+    transform: translate(-50%, -50%);
+    
+}
+
+.image-container .image {
+    display: block; /* Ensure image takes up full width */
+    width: 80%; /* Make image responsive */
+    height: 80%; /* Maintain aspect ratio */
+}
+.image-container .order-btn2:hover {
+    background-color: #192a19; /* Green background */
+}
+
+@media screen and (max-width: 768px) {
+    .image-container .order-btn2 {
+        font-size: 13px; /* Decrease font size */
+        padding: 8px 16px; /* Decrease padding */
+}
+
+/*cart css*/
+
+.cart {
+	margin-left: 200px;
+}
+
+.cart-icon {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+    margin-top: -20px;
+}
+
+
+.cart-icon .fa-shopping-cart {
+    font-size: 30px;
+}
+
+.item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    padding: 1px;
+    font-size: 15px;
+    min-width: 20px; /* Ensure a minimum width for the count */
+    text-align: center; /* Center align the count */
+    font-weight: bold; /* Make the count bold */
+}
+}
